@@ -28,7 +28,7 @@ public class MethodsThatUseAnEmployee {
 
 
     }
-    public static void displayEployee(Employee anEmp){
+    public static void displayEmployee(Employee anEmp){
 
 
     }
