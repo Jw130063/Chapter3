@@ -5,7 +5,7 @@ public class MethodsThatUseAnEmployee {
     public static void main(String[] args){
         Employee myEmployee;
         myEmployee = getEmployeeData();
-        displayEployee(myEmployee);
+        displayEmployee(myEmployee);
 
 
     }
@@ -19,7 +19,7 @@ public class MethodsThatUseAnEmployee {
         tempEmp.setEmpNum(id);
         System.out.print("Enter employee salary>>>");
         sal = input.nextDouble();
-        tempEmp.setSalry(sal);
+        tempEmp.setSalary(sal);
         return tempEmp;
 
 
