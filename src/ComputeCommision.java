@@ -5,15 +5,15 @@ public class ComputeCommision {
         char vType = 's';
         int value = 23000;
         double commRate = 0.08;
-        Scanner imput = new Scanner(System.in);
+        Scanner input = new Scanner(System.in);
 
         computeCommision(value, commRate, vType);
-        computeCommision(value 40000, 0.10,  'L');
+
         System.out.println("Please enter the value of the vehicle>>>> ");
-        value = imput.nextInt();
+        value = input.nextInt();
         computeCommision(value, commRate, vType);
         System.out.println("please enter the vehicle type>>>>>");
-        vType = input.next();
+
         System.out.println("Please enter commission rate in decimals>>>>>");
 
 

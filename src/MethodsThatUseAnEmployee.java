@@ -10,16 +10,16 @@ public class MethodsThatUseAnEmployee {
 
     }
     public static Employee getEmployeeData(){
-       employee tempEmp + new employee();
+       Employee tempEmp + new Employee();
        int id;
        double sal;
         Scanner input = new Scanner(System.in);
         System.out.print("enter employee ID>>>>");
         id = input.nextInt();
-        tempEmp.setEmpNum(id);
+
         System.out.print("Enter employee salary>>>");
         sal = input.nextDouble();
-        tempEmp.setSalary(sal);
+        tempEmployee.setSalary(sal);
         return tempEmp;
 
 

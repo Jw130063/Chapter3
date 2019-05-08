@@ -1,25 +1,29 @@
 public class SpaService {
-    private String serviceDescription;
-    private double price;
+    public static void main(String[] args) {
 
-    public void setServiceDescription(String service)
-    {serviceDescription = service;
+        String serviceDescription;
+        double price;
+
+        public void setServiceDescription;
+        {
+            serviceDescription = serviceDescription;
+        }
+        {
+            public void setPrice ( double pr)
+        }
+        {
+            price = pr;
+        }
+        public String getServiceDescription ()
+        {
+            return serviceDescription;
+        }
+        public double getprice ()
+        {
+            return price;
+
+        }
+
+
     }
-    {
-     public void setPrice(double pr)
-    }
-    {
-        price = pr;
-    }
-public String getServiceDescription()
-{
-    return serviceDescription;
-}
-public double getprice()
-{
-    return price;
-
-}
-
-
 }
